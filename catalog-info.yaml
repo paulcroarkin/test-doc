@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-doc"
+  description: "testing"
+  annotations:
+    github.com/project-slug: paulcroarkin/test-doc
+    backstage.io/techdocs-ref: url:https://github.com/paulcroarkin/test-doc
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "paulcroarkin"
